@@ -1,0 +1,36 @@
+Variant A:
+
+1. make a RunClient.bat and fill it with
+
+start BFP4f.exe +webSiteHostName "localhost" +battleFundsHostName "localhost" +survey 0 +dc 1 +sessionId 1234 +lang en +soldierName "mysoldier" +multi 1 +frontendUrl "http://localhost/"
+
+2. make a RunServer.bat and fill it with
+
+start BFP4f_w32ded.exe +dedicated +sessionId 1234 +punkbuster 0 +multi 1  +magma 0
+
+go from here any other way
+
+
+Variant B:
+
+(0.) write this into "hosts" file (google its location) " 127.0.0.1 gosredirector.ea.com" without the quotes, notice the space at the start of the line
+
+1. copy bfp4flauncherwv and blazesharkwv into bf4.exe folder
+
+2. run it and launch blaze (*note at this point maybe start a webserver on localhost, it will be run inside the window)
+3. launch blazesharkwv and press start
+
+3. switch to launcher tab in bfp4flauncherwv and press launch (edit startparams if you like)
+4. for this to work you need proxied zlib.dll and zlib_org.dll (ssl cert bypass)
+
+5. now the bfp4f should start with an additional console window
+
+6. it should start connect to bfp4flauncher's redirector, which sends it to the port of blazesharkwv
+
+7. there you can observer the blaze packets
+
+8. blazeshark relays the packets back and forth between launcher's backend
+
+
+*you can host in the webserver the files from "extract_frontend", it contains more code showing how to control the exe from within the browser with js
+
