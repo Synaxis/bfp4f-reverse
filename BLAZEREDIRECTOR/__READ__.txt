@@ -1,2 +1,6 @@
 REPLACE ALL THIS TO 2015 PLAY4FREE CLIENT.EXE 
 EDIT HOSTS WITH 
+ 127.0.0.1 gosredirector.ea.com 
+YOU NEED TO PUT THE SPACE 
+
+ 127.0.0.1 gosredirector.ea.com 
