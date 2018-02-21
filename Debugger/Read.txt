@@ -1,0 +1,2 @@
+you can either debug offline ( with loaded dlls)
+or while it's running 
