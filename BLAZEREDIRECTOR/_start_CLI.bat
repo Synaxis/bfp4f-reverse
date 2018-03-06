@@ -1,2 +1,0 @@
-bfp4f +swiffDebug 1 +FileChangeMonitor 0 +disable-swiff 0 + +webBrowser 0 +embedded 0 +autoLogin "true" +frontendUrl "0" +blazeEnvironment "dev" +debugNetwork 1 +forceFpuExeptions 1 +putDumpsInRoot 1 +webSiteHostName "localhost" +battleFundsHostName "localhost" +survey 0 +dc 1 +magma 0 +blaze 0 +developer 1 +sessionId 1234 +eaAccountName "1234dji" +eaAccountPassword "12332" +lang en +soldierName "mysoldier" +multi 1 +frontendUrl "http://localhost/" +autoLogin 1 +loggedIn "true" +disableFEBackendCheck 1 > _TESTLOG.txt 2> _TESTERRS.txt
-
