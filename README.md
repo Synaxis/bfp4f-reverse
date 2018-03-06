@@ -1,5 +1,7 @@
 # bfp4f-reverse
 CREDITS TO WARRANTY VOIDER
+
+
 files and info for bfp4f reversing
 For bypassing SSL check the fake cert, zlib.dll was chosen to inject code to bypass it - so the dll with the bypass has to be called "zlib.dll" (so it gets loaded first, like a proxy) and the original dll has to be renamed to "zlib_org.dll" - you can control the game exe from the webbrowser, from within memory via zlib.dll or by settings in blaze packets - blaze is a protocol which essentially mimics remote procdure(RPC) calls with a custom binary xml format - blaze does no ingame traffic, like position updates or shots, instead its for all the "managing" around a match, the actual game traffic is usually UDP anyway
 
