@@ -1,10 +1,10 @@
-#This is the 2015 client with 2010 server of bfp4f
-https://drive.google.com/file/d/1-s_moCdFwCXtPY2FkXSsH38xUP5WYKDm/view
+#This is the 2015 client WITHOUT sound.zip and the cracked bfp4f.exe
+https://goo.gl/eFk9Mw
 
 #old leaked blaze server, only for compare
 http://www.mediafire.com/file/jaoax1bwvq19h45/blazeserver.rar
 
-#my example backend, blaze packet inspector/blazeshark and launcher
+#WARRANTY VOIDER  example backend, blaze packet inspector/blazeshark and launcher
 http://www.mediafire.com/file/fmkbof6qypschbm/bfp4f_byWV.rar
 
 #mass effect 3 private server emulator (my first blaze backend)
@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=hPcVowTEdIc
 #battlefield 4 backend
 https://www.unknowncheats.me/forum/battlefield-4-a/169865-battlefield-4-blaze-emulator.html
 
-#my attempt at bf4
+#WARRANTY VOIDER attempt at bf4
 https://www.unknowncheats.me/forum/battlefield-4-a/181439-current-bf4-backend-origin-mitm-mode.html
 
 #how to make proxy dlls
@@ -25,10 +25,10 @@ https://www.youtube.com/watch?v=lAY_ww8SNmM
 #papers about decompiling
 http://www.mediafire.com/file/411357enulm3pyb/decompiling_papers.rar
 
-#my paper about re
+#WARRANTY VOIDER paper about re
 http://www.mediafire.com/file/c6c3x0jodf1i337/BARE.rar
 
-#my decompiler and the paper about it
+#WARRANTY VOIDER decompiler and the paper about it
 https://github.com/zeroKilo/DirectedGraphsWV/blob/master/How%20to%20write%20a%20basic%20control%20flow%20decompiler.pdf
 
 #EA's own SSL implementation called "ProtoSSL", for finding "VerifyCertificate" function in exe

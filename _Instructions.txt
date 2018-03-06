@@ -1,0 +1,50 @@
+1. make a StartClient.bat and fill with
+
+start BFP4f.exe +webSiteHostName "localhost" +battleFundsHostName "localhost" +dc 1 +sessionId 1234 +soldierName "mysoldier" +frontendUrl "http://localhost/"
+
+2. make a RunServer.bat and fill with
+
+start BFP4f_w32ded.exe +dedicated +sessionId 1234 +magma 0
+
+
+ GO TO C:\Windows\System32\drivers\etc\hosts -->
+	===OPEN AS ADMINISTRATOR===
+
+add this to the end AFTER ##
+# 127.0.0.1 localhost
+ 
+ 127.0.0.1 gosredirector.ea.com
+ 127.0.0.1 battlefield.play4free.ea.com
+ 127.0.0.1 battlefield.com  
+
+notice the space at the start of the line!
+
+
+
+1. copy bfp4flauncherwv and blazesharkwv into bf4.exe folder
+
+
+2. run bfp4flauncherwv and launch blaze (here you can start the webserver for the frontend)
+
+
+3. launch blazesharkwv, switch tabs and press start
+
+
+3. switch to LAUNCHER tab in bfp4flauncherwv and press launch
+
+
+4. for this to work you need proxied zlib.dll and zlib_org.dll (zlib_org.dll is the ORIGINAL zlib dll)
+
+
+5. it should start connect to bfp4flauncher's redirector, which sends it to the port of blazesharkwv
+
+
+6. blazeshark shows the packets between client and backend backend
+
+
+7 HELP US FIGURE OUT THE REST !! 
+
+
+PS: you can host the files from "extracted_frontend", 
+it's also able to control the bfp4f Menu from within the browser with jscript
+
