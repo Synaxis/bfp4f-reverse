@@ -2,18 +2,14 @@ function Log(text)
 {
     var t = document.createElement("LI");
     t.appendChild(document.createTextNode(text));
-    document.body.appendChild(t);
+    document.body.appendChild(t); 
 }
- 
-function PrintObj(object)
+
+function hackRefreshPage()
 {
-    Log("Properties of object " + object.constructor.name);
-    var props = '';
-    for (var property in object) {
-        Log("# " + property + ", type of " + (typeof property));     
-    }
+    window.location.reload(true);
 }
- 
+
 function hackMain() {
     Log("Starting...");
     if (typeof jQuery === 'undefined') {
@@ -22,20 +18,26 @@ function hackMain() {
     } else {
       Log("jQuery is available");
     }
-	var root = this;
-    if (typeof root === 'undefined') {
-      Log("root is NOT available");
+	var test = this;
+    if (typeof test === 'undefined') {
+      Log("test is NOT available");
       return;
     } else {
-      Log("root is available");
+      Log("test is available");
     }
-	var backend = root.backend;
-    if (typeof backend === 'undefined') {
-      Log("backend is NOT available");
-      return;
-    } else {
-      Log("backend is available");
-    }	
-	PrintObj(backend);
+	Log(test.constructor.name);
+    var array = Object.getOwnPropertyNames(test);
+    array.sort();
+    var arrayLength = array.length;
+    Log(arrayLength);
+    for (var i = 0; i < arrayLength; i++) {
+        Log(array[i]);
+    }
     Log("Done.");
+}
+
+function hackTest()
+{
+	this.game.playNow();
+	Log("Ok");
 }

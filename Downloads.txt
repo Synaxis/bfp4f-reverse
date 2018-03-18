@@ -1,0 +1,26 @@
+#This is the 2015 client WITHOUT sound.zip (replace the cracked bfp4f.exe)
+https://goo.gl/eFk9Mw
+
+#old leaked blaze server, only for compare
+http://www.mediafire.com/file/jaoax1bwvq19h45/blazeserver.rar
+
+#WARRANTY VOIDER  example backend, blaze packet inspector/blazeshark and launcher
+http://www.mediafire.com/file/fmkbof6qypschbm/bfp4f_byWV.rar
+
+#battlefield 4 backend
+https://www.unknowncheats.me/forum/battlefield-4-a/169865-battlefield-4-blaze-emulator.html
+
+#how to make proxy dlls
+https://www.youtube.com/watch?v=lAY_ww8SNmM
+
+#papers about decompiling
+http://www.mediafire.com/file/411357enulm3pyb/decompiling_papers.rar
+
+#WARRANTY VOIDER paper about re
+http://www.mediafire.com/file/c6c3x0jodf1i337/BARE.rar
+
+#EA's own SSL implementation called "ProtoSSL", for finding "VerifyCertificate" function in exe
+https://github.com/xebecnan/EAWebkit/blob/master/EAWebKitSupportPackages/DirtySDKEAWebKit/local/core/source/proto/protossl.c
+
+#how to make a fake ssl cert for redirector
+https://www.youtube.com/watch?v=9FPQJaetBgY
